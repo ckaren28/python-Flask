@@ -1,0 +1,26 @@
+.farm, .cave, .house, .casino{
+	border:1px solid black;
+	width: 200px;
+	height: auto;
+	display: inline-block;
+	text-align: center;}
+
+*{
+	margin: 20px;
+}
+h2{
+	border: 2px solid black;
+	width: 50px;
+	height: auto;
+}
+
+.active{
+	border: 1px solid black;
+	overflow: scroll;
+	max-width: 900px;
+	height: 100px;
+}
+
+.active p{
+	color: green;
+}

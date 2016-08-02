@@ -1,0 +1,17 @@
+.rbanner, .lbanner{
+	display: inline-block;
+	vertical-align: top;
+}
+	.lbanner{
+		max-width: 400px;
+	}
+	.rbanner{
+		max-width: 400px;
+		position: fixed;
+		top: 0px;
+		right: 0px;
+	}
+	.rbanner, h3, a{
+		display: inline-block;
+		
+	}

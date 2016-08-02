@@ -1,0 +1,6 @@
+mysql.connector.errors.ProgrammingError: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+
+ValueError: invalid literal for int() with base 10: ;.format(x=modname), ExtDeprecationWarning(wrong port number)
+
+DATABASE_URI = "mysql://{}:{}@127.0.0.1:{}/{}".format(config['user'], config['password'], config['port'], config['database'])
+KeyError: 'user'(no user defined)

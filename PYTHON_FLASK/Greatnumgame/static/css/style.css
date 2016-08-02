@@ -1,0 +1,31 @@
+
+
+*{
+	text-align: center;
+}
+
+.high, .low{
+	background-color: red;
+	color: white;
+	border: 1px solid black;
+	width: 250px;
+	height: 250px;
+	text-align: center;}
+
+.yes{
+	background-color: green;
+	color: white;
+	border: 1px solid black;
+	width: 250px;
+	height: 250px;
+
+}
+
+div {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h2{
+	text-align: center;
+}

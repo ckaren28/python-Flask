@@ -1,0 +1,32 @@
+<html>
+    <head>
+       <title>Dojo Survey Index</title>
+       <meta charset="utf-8">
+       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"
+    </head>
+    <body>
+    <h1>REGISTRATION</h1>
+      <div class= "form">
+      {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            {% for message in messages %}
+                <p>{{message}}</p>
+            {% endfor %}
+        {% endif %}
+      {% endwith %}
+      <form action='/create_user' method='post'>
+          First Name: <input type='text' name='first_name'><br><br>
+          Last Name: <input type='text' name='last_name'><br><br>
+          Email: <input type='email' name='email'><br><br>
+          Password: <input type='password' name='password'><br><br>
+          Confirm Password: <input type='password' name='confirmpw'><br><br>
+          <input type='submit' value='Submit'>
+      </form>
+
+      <form action="/back" method="post">
+        <input type="submit" value="Go Back">
+      </form>
+    
+      </div>
+    </body>
+</html> 
